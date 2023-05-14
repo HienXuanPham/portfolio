@@ -1,0 +1,14 @@
+.about-me {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+.about-me h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.about-me p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+}

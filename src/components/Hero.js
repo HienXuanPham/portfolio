@@ -1,13 +1,17 @@
 import React from "react";
 import "../styles/Hero.css";
+import "animate.css";
 
 const Hero = () => {
   return (
-    <section class="hero" id="home">
+    <section className="hero" id="home">
       {/* <img /> */}
-      <div class="bio animate__animated animate__shakeX">
-        <h1 class="bio-title">Hi, my name is Xuan Hien Pham</h1>
-        <p class="bio-subtitle">I am a Software Developer</p>
+      <div className="bio">
+        <h1 className="bio-title">
+          <span>👋</span>
+          {" Hi, my name is Xuan Hien Pham"}
+        </h1>
+        <p className="bio-subtitle">I am a Software Developer</p>
       </div>
     </section>
   );

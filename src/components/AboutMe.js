@@ -6,8 +6,9 @@ const AboutMe = () => {
     <section className="about-me">
       <h2>About Me</h2>
       <p>
-        Studied at Ada Developers Academy and LAGCC Associate in Science in
-        Computer Science, I focus on <strong>Full-stack</strong> development.
+        I studied at Ada Developers Academy and earned an Associate in Science
+        degree in Computer Science from LaGuardia Community College. I focus on{" "}
+        <strong>Full-stack</strong> development.
       </p>
     </section>
   );

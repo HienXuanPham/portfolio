@@ -4,11 +4,13 @@
 }
 
 .about-me h2 {
+  font-size: var(--font-size-2);
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
 
 .about-me p {
+  font-size: var(--font-size-3);
   line-height: var(--line-height);
   padding: 0.4rem;
 }

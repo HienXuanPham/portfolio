@@ -5,3 +5,15 @@
   top: 0;
   left: 0;
 }
+
+.viewport {
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.layout {
+  /* this is a calculation of nav bar = 1.5rem * 2 (padding-top and padding-bottom) + 32px (h1) = 80px + 5px (I don't wanna it's too near the nav bar */
+  margin-top: 85px;
+}
+

@@ -11,7 +11,7 @@
   font-size: var(--font-size-2);
   font-weight: var(--bold-font);
   margin-bottom: var(--bottom-margin-2);
-  margin-top: var(--top-margin);
+  /* margin-top: var(--top-margin); */
 }
 
 .row {
@@ -44,7 +44,7 @@
 }
 
 .project-img {
-  height: auto;
+  /* height: auto; */
   max-width: 65%;
 }
 

@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import UpwardArrow from "./components/UpwardArrow";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <UpwardArrow />
     </div>
   );
 }

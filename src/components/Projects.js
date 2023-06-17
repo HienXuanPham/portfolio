@@ -4,8 +4,8 @@ import journal from "../images/journal.png";
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <div className="projects-container">
+    <section className="viewport" id="projects">
+      <div className="projects-container layout">
         <h2 className="projects">Projects</h2>
         <div className="row">
           <div className="grid-item">

@@ -4,7 +4,7 @@ import womenInTech from "../images/7450220.png";
 
 const Hero = () => {
   return (
-    <section className="hero" id="home">
+    <section className="hero viewport" id="home">
       {/* Image by "https://www.freepik.com/free-psd/3d-illustration-female-graphic-designer-character-working-laptop_29013797.htm#from_view=detail_serie" */}
       <img src={womenInTech} alt="women in tech" className="hero-img" />
       <div className="bio">

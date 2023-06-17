@@ -9,7 +9,7 @@
 }
 
 .contact-form-container {
-  max-width: 40.75rem;
+  max-width: 30rem;
   margin: auto;
   margin-bottom: var(--bottom-margin-2);
   padding: 1rem;
@@ -47,9 +47,8 @@
 }
 
 .submit-btn {
-  width: 15%;
   padding: 10px;
-  margin : 10px 16.50rem;
+  margin : 10px 0;
   color: var(--primary-color);
   background-color: #fff;
   border: 2px solid var(--primary-color);

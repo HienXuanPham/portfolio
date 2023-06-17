@@ -3,7 +3,7 @@ import "../styles/AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <section className="about-me">
+    <section className="about-me" id="about-me">
       <h2>About Me</h2>
       <p>
         I studied at Ada Developers Academy and earned an Associate in Science

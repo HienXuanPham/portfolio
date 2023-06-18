@@ -9,7 +9,7 @@ const Hero = () => {
       <img src={womenInTech} alt="women in tech" className="hero-img" />
       <div className="bio">
         <h1 className="bio-title">
-          <span>👋</span>
+          <span className="waving">👋</span>
           {" Hi, my name is Xuan Hien Pham"}
         </h1>
         <p className="bio-subtitle">I am a Software Developer</p>

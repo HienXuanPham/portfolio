@@ -31,8 +31,15 @@
   padding: 0.3rem 0;
 }
 
-.bio-title span {
+.bio-title .waving {
   animation: wobble 2.5s 5;
   animation-delay: 0.5s;
   display: inline-block;
+}
+
+.waving:hover {
+  animation-name: wobble;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
 }

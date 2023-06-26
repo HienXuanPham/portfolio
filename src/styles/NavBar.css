@@ -33,7 +33,7 @@ nav ul li {
   color: var(--primary-color);
   font-size: 2rem;
   border: 0;
-  background-color: transparent;
+  background-color: var(--bg-color);
   cursor: pointer;
   display: none;
 }

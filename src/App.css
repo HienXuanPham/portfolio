@@ -13,7 +13,37 @@
 }
 
 .layout {
-  /* this is a calculation of nav bar = 1.5rem * 2 (padding-top and padding-bottom) + 32px (h1) = 80px + 5px (I don't wanna it's too near the nav bar */
+  /* this is a calculation of nav bar = 1.5rem (24px) * 2 (padding-top and padding-bottom) + 32px (h1) = 80px + 5px (I don't wanna it's too near the nav bar */
   margin-top: 85px;
 }
 
+@media screen and (max-width: 720px) {
+  /*changes reflects on screen with a width of 720px and below*/
+  nav {
+    padding: 0;
+  }
+
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+  nav ul li {
+    margin: 8px;
+  }
+
+  button.burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+}

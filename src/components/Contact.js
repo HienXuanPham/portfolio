@@ -1,13 +1,20 @@
 import React from "react";
 import "../styles/Contact.css";
+import { useForm } from "@formspree/react";
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("mwkdpbdj");
+
+  if (state.succeeded) {
+    window.location.reload();
+  }
+
   return (
     <section className="contact viewport" id="contact">
       <div className="layout">
         <h2>Get In Touch With Me</h2>
         <div className="contact-form-container">
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="form-control">
               <label htmlFor="name">Name</label>
               <input
@@ -42,13 +49,14 @@ const Contact = () => {
                 required
               />
             </div>
-            <div>
-              <input
+            <div id="submit-btn">
+              <button
                 type="submit"
-                value="Submit"
                 className="submit-btn"
-                id="submit-btn"
-              />
+                disabled={state.submitting}
+              >
+                Submit
+              </button>
             </div>
           </form>
         </div>

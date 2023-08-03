@@ -2,11 +2,11 @@ import React from "react";
 import "../styles/Contact.css";
 import { useForm } from "@formspree/react";
 
-const Contact = () => {
+const Contact = ({ onFormSubmit }) => {
   const [state, handleSubmit] = useForm("mwkdpbdj");
 
   if (state.succeeded) {
-    window.location.reload();
+    onFormSubmit();
   }
 
   return (

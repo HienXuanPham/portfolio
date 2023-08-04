@@ -24,9 +24,12 @@ function App() {
       <AboutMe />
       <Skills />
       <Projects />
-      <Contact onFormSubmit={handleContactFormSubmit} />
+      {!contactFormSubmit ? (
+        <Contact onFormSubmit={handleContactFormSubmit} />
+      ) : (
+        <ThankYou />
+      )}
       <UpwardArrow />
-      {contactFormSubmit && <ThankYou />}
     </div>
   );
 }

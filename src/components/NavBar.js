@@ -26,13 +26,13 @@ const NavBar = () => {
           </a>
         </li>
         <li>
-          <a href="#skills" className="nav-link" onClick={hideBurgerNavBar}>
-            Skills
+          <a href="#projects" className="nav-link" onClick={hideBurgerNavBar}>
+            Projects
           </a>
         </li>
         <li>
-          <a href="#projects" className="nav-link" onClick={hideBurgerNavBar}>
-            Projects
+          <a href="#skills" className="nav-link" onClick={hideBurgerNavBar}>
+            Skills
           </a>
         </li>
         <li>

@@ -16,8 +16,6 @@
 .bio {
   width: 30rem;
   padding: 0.625rem;
-  /* border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
 }
 
 .bio-title {
@@ -32,7 +30,7 @@
 }
 
 .bio-title .waving {
-  animation: wobble 2.5s 5;
+  animation: wobble 2.5s 10;
   animation-delay: 0.5s;
   display: inline-block;
 }

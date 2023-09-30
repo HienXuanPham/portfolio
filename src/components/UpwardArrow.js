@@ -11,7 +11,7 @@ const UpwardArrow = () => {
   };
   return (
     <button className="scroll-up upward-arrow" id="scroll-up" onClick={onClick}>
-      ⮝
+      ⇧
     </button>
   );
 };

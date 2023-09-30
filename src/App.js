@@ -11,10 +11,10 @@ import UpwardArrow from "./components/UpwardArrow";
 import ThankYou from "./components/ThankYou";
 
 function App() {
-  const [contactFormSubmit, setContactFormSubmit] = useState(false);
+  const [isContactFormSubmitted, setIsContactFormSubmitted] = useState(false);
 
   const handleContactFormSubmit = () => {
-    setContactFormSubmit(true);
+    setIsContactFormSubmitted(true);
   };
 
   return (
@@ -22,12 +22,12 @@ function App() {
       <NavBar />
       <Hero />
       <AboutMe />
-      <Skills />
       <Projects />
-      {!contactFormSubmit ? (
-        <Contact onFormSubmit={handleContactFormSubmit} />
-      ) : (
+      <Skills />
+      {isContactFormSubmitted ? (
         <ThankYou />
+      ) : (
+        <Contact onFormSubmit={handleContactFormSubmit} />
       )}
       <UpwardArrow />
     </div>

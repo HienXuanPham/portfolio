@@ -12,7 +12,9 @@ const Hero = () => {
           <span className="waving">👋</span>
           {" Hi, my name is Xuan Hien Pham"}
         </h1>
-        <p className="bio-subtitle">I am a Software Developer</p>
+        <p className="bio-subtitle">
+          You can call me Chelsea. I am a Software Developer.
+        </p>
       </div>
     </section>
   );

@@ -14,3 +14,18 @@
   line-height: var(--line-height);
   padding: 0.4rem;
 }
+
+.show-credentials {
+  display: flex;
+  margin: .5rem;
+}
+
+.diploma {
+  padding: 5px;
+  width: 54px;
+  height: 54px;
+  margin: 5px;
+  animation-name: tada;
+  animation-duration: 2.5s;
+  animation-iteration-count: 100;
+}

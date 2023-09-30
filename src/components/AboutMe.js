@@ -19,6 +19,29 @@ const AboutMe = () => {
           have hands-on experience writing integration tests using test
           framework built on RSpec and Capybara.
         </p>
+        <div className="show-credentials">
+          <img
+            className="diploma"
+            src="https://img.icons8.com/nolan/64/diploma.png"
+            alt="diploma"
+          />
+          <a
+            href="https://certificate.adadevelopersacademy.org/5f1b3f33-01f4-424d-941a-acf20c2694c6#gs.5tevmq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button-link"
+          >
+            <button className="button-style">Credential</button>
+          </a>
+          <a
+            href="https://www.parchment.com/u/award/a77a80bd72ecec752ffd105017dd2575"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button-link"
+          >
+            <button className="button-style">Digital diploma</button>
+          </a>
+        </div>
       </div>
     </section>
   );

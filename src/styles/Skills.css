@@ -8,6 +8,7 @@
 .skill-header {
   font-size: var(--font-size-2);
   margin-bottom: var(--bottom-margin-2);
+  color: var(--primary-color);
 }
 
 .skills-wrapper img {

@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Contact.css";
 import { useForm } from "@formspree/react";
+import githubIcon from "../images/icons8-github.svg";
+import linkedinIcon from "../images/icons8-linkedin.svg";
 
 const Contact = ({ onFormSubmit }) => {
   const [state, handleSubmit] = useForm("mwkdpbdj");
@@ -59,6 +61,22 @@ const Contact = ({ onFormSubmit }) => {
               </button>
             </div>
           </form>
+        </div>
+        <div className="socials">
+          <a
+            href="https://github.com/HienXuanPham"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={githubIcon} alt="Github" className="social-icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/xuan-hien-pham"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedinIcon} alt="Linkedin" className="social-icon" />
+          </a>
         </div>
       </div>
     </section>

@@ -11,6 +11,7 @@
   font-size: var(--font-size-2);
   font-weight: var(--bold-font);
   margin-bottom: var(--bottom-margin-2);
+  color: var(--primary-color);
 }
 
 .row {

@@ -11,7 +11,7 @@ import reactIcon from "../images/icons8-react-native.svg";
 import gitIcon from "../images/icons8-git.svg";
 import githubIcon from "../images/icons8-github.svg";
 import herokuIcon from "../images/icons8-heroku.svg";
-import awsIcon from "../images/icons8-amazon-web-services.svg";
+import flaskIcon from "../images/icons8-flask.svg";
 
 const Skills = () => {
   return (
@@ -37,7 +37,7 @@ const Skills = () => {
             <img src={gitIcon} alt="" className="icon icon-card" />
             <img src={githubIcon} alt="" className="icon icon-card" />
             <img src={herokuIcon} alt="" className="icon icon-card" />
-            <img src={awsIcon} alt="" className="icon icon-card" />
+            <img src={flaskIcon} alt="" className="icon icon-card" />
           </div>
         </div>
       </div>

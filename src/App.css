@@ -16,7 +16,31 @@
 }
 
 @media screen and (max-width: 720px) {
-  /*changes reflects on screen with a width of 720px and below*/
+  .hero {
+    flex-direction: column;
+
+    .hero-img {
+      height: 420px;
+      width: 420px;
+    }
+
+    .bio {
+      width: 320px;
+      .bio-title {
+        font-size: var(--font-size-2);
+    }
+    }
+  }
+
+  .projects-container .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .layout .contact-form-container {
+    max-width: 420px;
+  }
+
   nav {
     padding: 0;
   }

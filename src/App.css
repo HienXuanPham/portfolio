@@ -4,7 +4,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
 }
 
 .viewport {
@@ -52,6 +51,21 @@
 
   .hero {
     flex-wrap: wrap;
+  }
+
+  .row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .bio,
+  .layout,
+  .project-wrapper {
+    text-align: center !important;
+  }
+
+  .project-wrapper {
+    justify-content: center;
+    text-align: center !important;
   }
 }
 

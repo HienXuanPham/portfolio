@@ -57,14 +57,14 @@
     grid-template-columns: 1fr !important;
   }
 
-  .bio {
-    text-align: center;
+  .bio,
+  .layout,
+  .project-wrapper {
+    text-align: center !important;
   }
 
   .project-wrapper {
     justify-content: center;
-  }
-  .project-wrapper {
     text-align: center !important;
   }
 }
